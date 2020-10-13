@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgba(52, 75, 88, 0.473);
+}
+
+#App {
+  min-width: 50vw;
+  min-height: 100vh;
+}
+
+.para {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.para span {
+  font-size: 1.4rem;
+}
+
+.headh1 {
+  text-align: center;
+  color: rgba(0, 0, 0, 0.527);
+  font-size: 4rem;
+  padding: 1rem;
+
+  text-decoration: underline;
+  box-shadow: 2px 5px 5px 1px;
+}
+
+.mybtn {
+  padding: 5px;
+  margin-left: 15px;
+  font-size: 1.4rem;
+  border-radius: 8px;
+
+  box-shadow: 2px 5px 4px rgb(52, 75, 88);
+
+  width: 20%;
+  border: none;
+  outline: chartreuse;
+  background-color: rgb(128, 208, 235);
+  transition: all 1s;
+}
+
+.mybtn:hover {
+  background-color: limegreen;
+  box-shadow: none;
+}
+
+.inputDiv {
+  margin: 0;
+  background-color: rgb(128, 208, 235);
+  display: flex;
+  min-height: 10vh;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+#entry {
+  margin: 0.8rem;
+  padding: 0.8rem;
+
+  width: 40%;
+
+  font-size: 1.4rem;
+  border-radius: 8px;
+}
+
+.outPut {
+  font-size: 1.6rem;
+  font-weight: 300;
+}
+
+.outPutCss {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  width: 70%;
+}
+
+.outPutBtn {
+  margin-left: 2rem;
+  background-color: rgba(255, 0, 0, 0.74);
+  color: rgba(240, 248, 255, 0.904);
+  outline: none;
+  width: 4rem;
+  font-size: 1rem;
+  font-weight: 800;
+  border: none;
+  border-radius: 8px;
+  padding: 0.5rem;
+}
+
+.outPutBtn:hover {
+  background-color: rgba(255, 0, 0, 0.459);
+}
+
+.WarnMssg {
+  color: red;
+
+  font-size: 2.5rem;
+  font-weight: 300;
+}
